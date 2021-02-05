@@ -1,0 +1,5 @@
+Client-id
+419168338848-9f2c2omfouengifqfk79l7108u2mmq4f.apps.googleusercontent.com
+
+Client secret
+BLi5Z739HUT9LZEi-pmRLERx
