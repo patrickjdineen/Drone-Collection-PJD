@@ -21,7 +21,7 @@ ul#horizontal-list li, ul#horizontal-list a {
     padding:0.5vw;
     color:black;
 }
-ul#horizontal-list a:nth-last-child(1){
+ul a:nth-last-child(1){
     border:solid 2px blue;
     border-radius: 11px;
     margin-right: 0.2vw;

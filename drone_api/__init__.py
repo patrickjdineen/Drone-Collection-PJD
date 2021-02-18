@@ -14,9 +14,13 @@ from authlib.integrations.flask_client import OAuth
 
 from flask_marshmallow import Marshmallow
 
+from flask_cors import CORS
+
 #instantiation of classes from packages to be used across the application
 app = Flask(__name__)
 app.config.from_object(Config)
+
+CORS(app)
 
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
